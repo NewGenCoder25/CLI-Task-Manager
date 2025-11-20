@@ -123,7 +123,7 @@ todo-cli/
 ├── database.py
 ├── requirements.txt
 ├── README.md
-├── LICENSE
+└── LICENSE
 
 
 ---
