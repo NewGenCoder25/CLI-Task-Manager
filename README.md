@@ -35,69 +35,68 @@ This tool helps you track tasks, deadlines, priorities, and categories — all f
 
 ## 📦 Installation
 
-Clone this repository:
+### Clone this repository:
 
-```bash
 git clone https://github.com/<your-username>/todo-cli.git
 cd todo-cli
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
-Run the app:
+#### Run the app:
 
 python main.py
 
 
 ---
 
-🧠 Basic Usage
+### 🧠 Basic Usage
 
-➕ Add a task
+#### ➕ Add a task
 
 python main.py add "Learn Python" Learn --priority high --due 2025-02-01
 
-📋 Show tasks
+#### 📋 Show tasks
 
 python main.py show
 
-🏷 Filter tasks
+#### 🏷 Filter tasks
 
 python main.py show --category Code
 python main.py show --priority high
 python main.py show --status done
 
-✏️ Update a task
+#### ✏️ Update a task
 
 python main.py update 2 --task "Learn APIs" --priority medium
 
-✔ Mark as done
+#### ✔ Mark as done
 
 python main.py complete 3
 
-❌ Delete a task
+#### ❌ Delete a task
 
 python main.py delete 2
 
 
 ---
 
-🔍 Search
+### 🔍 Search
 
 python main.py search "python"
 
 
 ---
 
-📤 Export Tasks
+### 📤 Export Tasks
 
 python main.py export tasks.csv --priority high
 
 
 ---
 
-📊 Statistics
+### 📊 Statistics
 
 python main.py stats
 
@@ -106,7 +105,7 @@ Outputs total, completed, pending, overdue, and completion rate.
 
 ---
 
-💣 Reset Database
+### 💣 Reset Database
 
 ⚠ This deletes all tasks.
 
@@ -115,7 +114,7 @@ python main.py reset --confirm
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 todo-cli/
 │
@@ -129,7 +128,7 @@ todo-cli/
 
 ---
 
-🛡 License
+## 🛡 License
 
 This project is licensed under the MIT License
 Feel free to use it, modify it, and share it.
@@ -137,7 +136,7 @@ Feel free to use it, modify it, and share it.
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome!
 Suggestions for new features are appreciated too.
@@ -145,7 +144,7 @@ Suggestions for new features are appreciated too.
 
 ---
 
-⭐ Support
+## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
 
