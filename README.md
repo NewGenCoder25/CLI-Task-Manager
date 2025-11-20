@@ -116,15 +116,13 @@ python main.py reset --confirm
 
 ## 📁 Project Structure
 
-todo-cli/
-│
+CLI Task Manager
 ├── main.py
 ├── model.py
 ├── database.py
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
 
 ---
 
