@@ -116,7 +116,7 @@ python main.py reset --confirm
 
 ## 📁 Project Structure
 
-CLI Task Manager
+CLI Task Manager/
 ├── main.py
 ├── model.py
 ├── database.py
