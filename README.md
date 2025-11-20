@@ -36,70 +36,70 @@ This tool helps you track tasks, deadlines, priorities, and categories — all f
 ## 📦 Installation
 
 ### Clone this repository:
-
+```bash
 git clone https://github.com/<your-username>/todo-cli.git
 cd todo-cli
-
+```
 ### Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
-#### Run the app:
-
+```
+### Run the app:
+```bash
 python main.py
-
+```
 
 ---
 
 ### 🧠 Basic Usage
 
 #### ➕ Add a task
-
+```bash
 python main.py add "Learn Python" Learn --priority high --due 2025-02-01
-
+```
 #### 📋 Show tasks
-
+```bash
 python main.py show
-
+```
 #### 🏷 Filter tasks
-
+```bash
 python main.py show --category Code
 python main.py show --priority high
 python main.py show --status done
-
+```
 #### ✏️ Update a task
-
+```bash
 python main.py update 2 --task "Learn APIs" --priority medium
-
+```
 #### ✔ Mark as done
-
+```bash
 python main.py complete 3
-
+```
 #### ❌ Delete a task
-
+```bash
 python main.py delete 2
-
+```
 
 ---
 
 ### 🔍 Search
-
+```bash
 python main.py search "python"
-
+```
 
 ---
 
 ### 📤 Export Tasks
-
+```bash
 python main.py export tasks.csv --priority high
-
+```
 
 ---
 
 ### 📊 Statistics
-
+```bash
 python main.py stats
-
+```
 Outputs total, completed, pending, overdue, and completion rate.
 
 
@@ -108,22 +108,26 @@ Outputs total, completed, pending, overdue, and completion rate.
 ### 💣 Reset Database
 
 ⚠ This deletes all tasks.
-
+```bash
 python main.py reset --confirm
-
+```
 
 ---
 
+
 ## 📁 Project Structure
 
-CLI Task Manager/
-├── main.py
-├── model.py
-├── database.py
-├── requirements.txt
-├── README.md
-└── LICENSE
+```bash
 
+└── CLI Task Manager/
+    ├── main.py
+    ├── model.py
+    ├── database.py
+    ├── requirements.txt
+    ├── README.md
+    └── LICENSE
+
+```
 ---
 
 ## 🛡 License
