@@ -37,8 +37,8 @@ This tool helps you track tasks, deadlines, priorities, and categories — all f
 
 ### Clone this repository:
 ```bash
-git clone https://github.com/NewGenCoder25/todo-cli.git
-cd todo-cli
+git clone https://github.com/NewGenCoder25/CLI-Task-Manager.git
+cd CLI-Task-Manager
 ```
 ### Install dependencies:
 ```bash
